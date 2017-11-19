@@ -4,7 +4,7 @@ This is a project I made that allows you to interact with the STEEM Blockchain b
 
 The Python files uses the `piston-lib` library. The library can be found here: [https://github.com/xeroc/piston-lib](https://github.com/xeroc/piston-lib)
 
-Server-side, you'll need a web server,PHP, and Python 3.
+Server-side, you'll need a web server, PHP, and Python 3.
 
 I personally run this API at https://api.steem.place using apache2 and php7.0
 
