@@ -1,0 +1,9 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+from pistonapi.steemnoderpc import SteemNodeRPC
+import sys
+
+ENCODING = sys.stdout.encoding if sys.stdout.encoding else 'utf-8'
+ws = SteemNodeRPC("wss://node.steem.place", "", "")
+followers = ws.get_account(sys.argv[1])
+print(followers["voting_power"] / 100)
