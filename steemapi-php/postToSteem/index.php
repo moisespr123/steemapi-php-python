@@ -9,6 +9,8 @@ $pk = $_POST['pk'];
 
 setlocale(LC_ALL, 'en_US.utf8');
 putenv('LC_ALL=en_US.utf8');
+$title = str_replace("\"", "\\\"", $title);
+$title = str_replace("`", "\`", $title);
 $body = str_replace("\"", "\\\"", $body);
 $body = str_replace("`", "\`", $body);
 echo(exec("python3 ../../steemapi-python/postToSteem.py \"".$title."\" \"".$body."\" \"".$author."\" \"".$permlink."\" \"".$tags."\" \"".$pk."\"" , $output));
