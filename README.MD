@@ -2,7 +2,7 @@
 
 This is a project I made that allows you to interact with the STEEM Blockchain by using PHP files which calls a Python script using the PHP exec() function
 
-The Python files uses the `piston-lib` library. The library can be found here: [https://github.com/xeroc/piston-lib](https://github.com/xeroc/piston-lib)
+The Python files uses the `steem` library. The library can be found here: [https://github.com/steemit/steem-python](https://github.com/steemit/steem-python)
 
 Server-side, you'll need a web server, PHP, and Python 3.
 
@@ -13,10 +13,12 @@ If you run Ubuntu, you can run the following and get this up and running easily:
 sudo apt-get install apache2 php7.0 python3 python3-pip
 ```
 
-Also, be sure to follow the `piston-lib` instructions at its repo to get piston-lib up and running. Otherwise, the python files will not run.
+Also, be sure to follow the `steem-python` instructions at its repo to get steem python library up and running. Otherwise, the python files will not run.
 
 # Follow me on Steemit!
 [https://steemit.com/@moisesmcardona](https://steemit.com/@moisesmcardona)
 
-# Also vote me for Witness!
-at [https://steemit.com/~witnesses](https://steemit.com/~witnesses), typing my name @moisesmcardona at the vote dialog, and pressing the **vote** button.
+# Also remember to vote for me as a Witness!
+Just go to https://steemit.com/~witnesses and enter my username **moisesmcardona**. Then, press the Vote button.
+
+[Or click here to vote me by using SteemConnect 🙂](https://v2.steemconnect.com/sign/account-witness-vote?witness=moisesmcardona&approve=1)

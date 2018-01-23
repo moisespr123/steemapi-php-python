@@ -1,10 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-from piston import Steem
+from steem import Steem
 import sys
 
 ENCODING = sys.stdout.encoding if sys.stdout.encoding else 'utf-8'
-steem = Steem(node="wss://node.steem.place")
-post = steem.get_post(sys.argv[1])
-posttext = post["title"]
-print (posttext)
+s = Steem(nodes=["https://api.steemit.com"])
+author,permlink=sys.argv[1].split("/")
+post = s.get_content(author,permlink)
+title = post["title"]
+print (title)
