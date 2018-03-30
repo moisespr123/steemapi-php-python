@@ -1,6 +1,6 @@
 # STEEM PHP/Python API
 
-**NOTE**: This API is no longer supported. Please use [steemapi-django](https://github.com/moisesmcardona/steemapi-django) instead.
+**NOTE**: This API is no longer supported. Please use [steemapi-django](https://github.com/moisesmcardona/steemapi-django) instead which is the new version and continuation of this project.
 
 This is a project I made that allows you to interact with the STEEM Blockchain by using PHP files which calls a Python script using the PHP exec() function
 
